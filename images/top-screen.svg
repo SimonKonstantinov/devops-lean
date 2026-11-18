@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="500" viewBox="0 0 1100 500" role="img" aria-labelledby="title desc">
+  <title id="title">Условный экран top</title>
+  <desc id="desc">Схематичный экран top с uptime, load average, CPU, памятью и таблицей процессов.</desc>
+  <rect width="1100" height="500" rx="12" fill="#111827"/>
+  <rect x="0" y="0" width="1100" height="46" rx="12" fill="#1f2937"/>
+  <rect x="0" y="34" width="1100" height="12" fill="#1f2937"/>
+  <text x="24" y="30" fill="#93c5fd" font-family="Consolas,monospace" font-size="19" font-weight="700">top — условный пример (цифры демонстрационные)</text>
+  <g font-family="Consolas,monospace" font-size="16" fill="#e5e7eb">
+    <text x="24" y="82">top - 12:41:08 up 12 days,  4:12,  2 users</text>
+    <text x="24" y="111">load average: 1.42, 1.18, 0.94</text>
+    <text x="24" y="140">Tasks: 218 total, 2 running, 216 sleeping, 0 stopped, 0 zombie</text>
+    <text x="24" y="169">%Cpu(s): 18.2 us, 4.1 sy, 0.0 ni, 74.6 id, 2.1 wa, 0.4 hi, 0.6 si, 0.0 st</text>
+    <text x="24" y="198">MiB Mem :  15924.0 total,  1024.0 free,  6200.0 used,  8700.0 buff/cache</text>
+    <text x="24" y="227">MiB Swap:   4096.0 total,  4096.0 free,     0.0 used.  8900.0 avail Mem</text>
+  </g>
+  <rect x="16" y="252" width="1068" height="34" fill="#2563eb"/>
+  <g font-family="Consolas,monospace" font-size="15" fill="#ffffff" font-weight="700">
+    <text x="26" y="275">PID</text><text x="88" y="275">USER</text><text x="174" y="275">PR</text><text x="220" y="275">NI</text><text x="272" y="275">VIRT</text><text x="370" y="275">RES</text><text x="458" y="275">SHR</text><text x="525" y="275">S</text><text x="580" y="275">%CPU</text><text x="665" y="275">%MEM</text><text x="760" y="275">TIME+</text><text x="895" y="275">COMMAND</text>
+  </g>
+  <g font-family="Consolas,monospace" font-size="16" fill="#e5e7eb">
+    <text x="26" y="321">1842</text><text x="88" y="321">api</text><text x="174" y="321">20</text><text x="220" y="321">0</text><text x="272" y="321">2.4g</text><text x="370" y="321">1.2g</text><text x="458" y="321">84m</text><text x="525" y="321">R</text><text x="580" y="321" fill="#fca5a5">187.4</text><text x="665" y="321">7.7</text><text x="760" y="321">4:18.22</text><text x="895" y="321">service-api</text>
+    <text x="26" y="357">913</text><text x="88" y="357">mysql</text><text x="174" y="357">20</text><text x="220" y="357">0</text><text x="272" y="357">5.1g</text><text x="370" y="357">2.0g</text><text x="458" y="357">32m</text><text x="525" y="357">S</text><text x="580" y="357">12.1</text><text x="665" y="357">12.8</text><text x="760" y="357">1:03.07</text><text x="895" y="357">mysqld</text>
+    <text x="26" y="393">1</text><text x="88" y="393">root</text><text x="174" y="393">20</text><text x="220" y="393">0</text><text x="272" y="393">168m</text><text x="370" y="393">12m</text><text x="458" y="393">8m</text><text x="525" y="393">S</text><text x="580" y="393">0.0</text><text x="665" y="393">0.1</text><text x="760" y="393">0:12.50</text><text x="895" y="393">systemd</text>
+  </g>
+  <line x1="24" y1="426" x2="1076" y2="426" stroke="#374151"/>
+  <text x="24" y="459" fill="#a7f3d0" font-family="Consolas,monospace" font-size="16">Читать вместе: %CPU — интервал; RES — RAM; VIRT — адресное пространство; S — состояние.</text>
+</svg>
